@@ -1,0 +1,25 @@
+# Bonvenio
+
+> Bonvenio ("Every welcome matters") is a remote web and automation service run by David Kasonga. It builds websites and simple automations so small businesses, practices and churches never miss an enquiry or a visitor. Works worldwide, online (Google Meet or phone), with websites in English, French or both. Clients deal with David directly.
+
+## Who it helps
+- Small businesses and practices: dental and medical practices, clinics, physios, salons and barbers, vets, advisers and trades that lose customers to missed calls, slow replies or out-of-date websites.
+- Churches that need a clear, current website for newcomers, including French-speaking and bilingual congregations.
+
+## Services and prices (founding rates for the first 3 clients in each group)
+- Callback Kit: missed-call text-back on the existing number, instant enquiry replies, automatic Google review requests, Google Business Profile fixed, plus a one-page website or a tidy-up of the current one. £695 setup, then £99/month.
+- Business Site: everything in the Callback Kit plus an up-to-5-page website, booking or quote form, online booking with text reminders, two content updates a month and a quarterly review call. £1,295 setup, then £149/month.
+- AI Receptionist (add-on): answers calls 24/7 in a natural voice (evenings, weekends or overflow), takes the caller's details and reason, and texts a summary straight away; never gives clinical advice. £195 setup, then £149/month.
+- Church Essentials: up to 4 pages (home, New here?, what's on, contact), service times and map, Google Business Profile, give-online button, hosting and 2 updates a month done for you. £395 setup, then £39/month.
+- Church Hub: everything in Essentials plus up to 10 pages, events calendar, talks and livestream page, weddings/baptisms/funerals enquiry pages, newsletter sign-up, training for two volunteers and unlimited updates. £795 setup, then £69/month.
+- Office Helpers for churches (add-ons): missed-call text-back +£29/month; AI phone assistant +£99/month (£150 setup).
+- Business sites go live in about 7 days; church sites in about 2 weeks. Clients own their domain and website.
+
+## Key pages
+- [Websites and missed-call automation for businesses and practices](https://bonvenio.com/): services, prices, FAQ
+- [Church websites](https://bonvenio.com/church.html): church packages, prices, FAQ
+- [About Bonvenio and David Kasonga](https://bonvenio.com/about.html)
+
+## Contact
+- Book a free 15-minute call: https://calendar.google.com/calendar/appointments/schedules/AcZssZ29erUvOMBMYR6peFgrR9YZwvOUdzHnYljgqyhJvtNu_MC1N5qXPzjkUTRz-k8_qVjpphj5aC2S
+- Email: david.kasonga@gmail.com
