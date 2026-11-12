@@ -247,6 +247,10 @@ details p{margin-top:12px;color:var(--muted)}
 footer.band{padding-block:28px;font-size:14px;color:var(--faint-d)}
 .foot{max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 .foot a{color:var(--muted-d)}
+.langsw{display:inline-flex;border:2px solid #4A5B6D;border-radius:4px;overflow:hidden;font-family:var(--mono);font-size:13px;font-weight:600}
+.langsw a{padding:8px 10px;min-height:40px;display:inline-flex;align-items:center;color:var(--paper);text-decoration:none}
+.langsw a[aria-current]{background:var(--paper);color:var(--ink)}
+.langsw a:not([aria-current]):hover{color:var(--gold)}
 </style>
 <style>
 .prose{max-width:68ch;display:flex;flex-direction:column;gap:14px}
@@ -264,6 +268,17 @@ footer.band{padding-block:28px;font-size:14px;color:var(--faint-d)}
 .langsw a{padding:8px 10px;min-height:40px;display:inline-flex;align-items:center;color:var(--paper);text-decoration:none}
 .langsw a[aria-current]{background:var(--paper);color:var(--ink)}
 .langsw a:not([aria-current]):hover{color:var(--gold)}
+</style>
+<style id="sticky-nav">
+header{position:sticky;top:0;z-index:50;box-shadow:0 1px 0 rgba(0,0,0,.25)}
+[id]{scroll-margin-top:96px}
+@media (max-width:720px){
+header{padding-block:10px !important}
+header nav{flex-wrap:nowrap !important;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;max-width:100%;padding-bottom:2px}
+header nav::-webkit-scrollbar{display:none}
+header nav .btn,header nav a[class*="btn"],header nav .langsw{flex:0 0 auto}
+[id]{scroll-margin-top:120px}
+}
 </style>
 </head>
 <body>
@@ -308,11 +323,14 @@ footer.band{padding-block:28px;font-size:14px;color:var(--faint-d)}
 </div>
 <p class="lang" id="tarifs">Tarifs : à partir de 395 £ + 39 £/mois (tarif de lancement pour les 3 premières églises). Devis en euros sur demande. <a href="/pricing.html">Tous les tarifs (en anglais) →</a></p>
 </div></section>
-<section class="band" style="border-top:1px solid var(--rule)"><div class="wrap"><div class="prose">
+<section class="band" style="border-top:1px solid var(--rule)"><div class="about">
+<div style="flex:0 1 280px;min-width:0"><img src="/david.jpg" alt="David Kasonga, fondateur de Bonvenio, souriant" width="800" height="1000" loading="lazy" style="display:block;width:100%;max-width:280px;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:8px"></div>
+<div style="flex:999 1 420px;min-width:0;display:flex;flex-direction:column;gap:16px;max-width:680px">
 <p class="eyebrow">Pourquoi Bonvenio</p>
 <h2>Chaque accueil compte</h2>
 <p>Je m'appelle David Kasonga. Je suis moi-même conducteur de louange, donc je sais combien d'efforts demande l'accueil du dimanche, et combien le site internet passe facilement au second plan. Je travaille directement avec vous, du premier appel jusqu'à la mise en ligne.</p>
-</div></div></section>
+</div>
+</div></section>
 <section id="faq" class="band stone"><div class="faq"><div class="intro"><p class="eyebrow">Questions</p><h2>Réponses simples</h2></div>
 <div class="faq-list"><details><summary>Combien coûte un site internet pour une église ?<span class="plus" aria-hidden="true">+</span></summary><p>Avec Bonvenio, un site d'église commence à 395 £ pour la mise en place, puis 39 £ par mois (Essentiel, tarif de lancement pour les 3 premières églises). Cela comprend jusqu'à 4 pages, les horaires des cultes et un plan d'accès, votre fiche Google, un bouton de dons en ligne, l'hébergement et deux mises à jour par mois. La formule Hub, pour les églises plus grandes, coûte 795 £ puis 69 £ par mois. Devis en euros sur demande.</p></details>
 <details><summary>Pouvez-vous faire un site bilingue français-anglais ?<span class="plus" aria-hidden="true">+</span></summary><p>Oui. Je crée des sites en français, en anglais ou dans les deux langues, avec un bouton pour changer de langue.</p></details>

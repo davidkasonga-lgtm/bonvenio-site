@@ -155,6 +155,17 @@ html{scroll-behavior:smooth}
 *{box-sizing:border-box}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
 </style>
+<style id="sticky-nav">
+header{position:sticky;top:0;z-index:50;box-shadow:0 1px 0 rgba(0,0,0,.25)}
+[id]{scroll-margin-top:96px}
+@media (max-width:720px){
+header{padding-block:10px !important}
+header nav{flex-wrap:nowrap !important;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;max-width:100%;padding-bottom:2px}
+header nav::-webkit-scrollbar{display:none}
+header nav .btn,header nav a[class*="btn"],header nav .langsw{flex:0 0 auto}
+[id]{scroll-margin-top:120px}
+}
+</style>
 </head>
 <body>
 <div style="width: 100%;  background: #F6F7F4; color: #14202E; font-family: 'Public Sans', system-ui, -apple-system, 'Segoe UI', sans-serif; font-size: 17px; line-height: 1.6">
