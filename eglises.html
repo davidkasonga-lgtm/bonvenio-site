@@ -20,6 +20,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#14202E">
 <link rel="alternate" type="text/plain" href="https://bonvenio.com/llms.txt" title="LLM summary">
+<link rel="alternate" hreflang="fr" href="https://bonvenio.com/eglises.html">
+<link rel="alternate" hreflang="en" href="https://bonvenio.com/church.html">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -258,6 +260,10 @@ footer.band{padding-block:28px;font-size:14px;color:var(--faint-d)}
 .foot nav{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;font-weight:500}
 .foot nav a{color:var(--muted-d)}
 .lang{font-family:var(--mono);font-size:13px}
+.langsw{display:inline-flex;border:2px solid #4A5B6D;border-radius:4px;overflow:hidden;font-family:var(--mono);font-size:13px;font-weight:600}
+.langsw a{padding:8px 10px;min-height:40px;display:inline-flex;align-items:center;color:var(--paper);text-decoration:none}
+.langsw a[aria-current]{background:var(--paper);color:var(--ink)}
+.langsw a:not([aria-current]):hover{color:var(--gold)}
 </style>
 </head>
 <body>
@@ -266,9 +272,9 @@ footer.band{padding-block:28px;font-size:14px;color:var(--faint-d)}
 <a href="/" class="logo"><svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="4" fill="#F5C518"></rect><path d="M11 29V8h14v21" fill="none" stroke="#14202E" stroke-width="2.2" stroke-linejoin="round"></path><path d="M11 8l8 2.5V31l-8-2Z" fill="#14202E"></path><circle cx="17" cy="20" r="1.2" fill="#F5C518"></circle></svg><span>Bonvenio</span></a>
 <nav aria-label="Menu principal">
 <a href="/eglises.html" aria-current="page">Églises</a>
-<a href="/">Entreprises (EN)</a>
-<a href="/pricing.html">Tarifs (EN)</a>
-<a href="/about.html">À propos (EN)</a>
+<a href="#tarifs">Tarifs</a>
+<a href="#faq">Questions</a>
+<span class="langsw" role="group" aria-label="Langue / Language"><a href="/church.html" hreflang="en" lang="en">EN</a><a href="/eglises.html" hreflang="fr" aria-current="true">FR</a></span>
 <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ29erUvOMBMYR6peFgrR9YZwvOUdzHnYljgqyhJvtNu_MC1N5qXPzjkUTRz-k8_qVjpphj5aC2S" target="_blank" rel="noopener" class="btn btn-gold">Réserver 15 min</a>
 </nav>
 </div>
@@ -300,7 +306,7 @@ footer.band{padding-block:28px;font-size:14px;color:var(--faint-d)}
 <div><h3>Fiche Google</h3><p class="muted">Adresse, horaires et photos corrects sur Google Maps.</p></div>
 <div><h3>Mises à jour faites pour vous</h3><p class="muted">Envoyez-moi les changements par e-mail ou WhatsApp, je m'en occupe.</p></div>
 </div>
-<p class="lang">Tarifs : à partir de 395 £ + 39 £/mois (tarif de lancement pour les 3 premières églises). Devis en euros sur demande. <a href="/pricing.html">Tous les tarifs (en anglais) →</a></p>
+<p class="lang" id="tarifs">Tarifs : à partir de 395 £ + 39 £/mois (tarif de lancement pour les 3 premières églises). Devis en euros sur demande. <a href="/pricing.html">Tous les tarifs (en anglais) →</a></p>
 </div></section>
 <section class="band" style="border-top:1px solid var(--rule)"><div class="wrap"><div class="prose">
 <p class="eyebrow">Pourquoi Bonvenio</p>
